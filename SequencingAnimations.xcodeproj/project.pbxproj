@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E423745204888E20081DE8C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E423744204888E20081DE8C /* HeaderView.swift */; };
+		2E423747204888EF0081DE8C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E423746204888EF0081DE8C /* DetailsView.swift */; };
+		2E423749204888FC0081DE8C /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E423748204888FC0081DE8C /* BottomView.swift */; };
+		2E42374B2048A04B0081DE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E42374A2048A04B0081DE8C /* ViewController.swift */; };
+		2ED1A4CA2047320800D643B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1A4C92047320800D643B6 /* AppDelegate.swift */; };
+		2ED1A4CC2047320800D643B6 /* SequenceAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1A4CB2047320800D643B6 /* SequenceAnimationsViewController.swift */; };
+		2ED1A4CF2047320800D643B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED1A4CD2047320800D643B6 /* Main.storyboard */; };
+		2ED1A4D12047320800D643B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED1A4D02047320800D643B6 /* Assets.xcassets */; };
+		2ED1A4D42047320800D643B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED1A4D22047320800D643B6 /* LaunchScreen.storyboard */; };
+		2ED1A4DC204738CE00D643B6 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1A4DB204738CE00D643B6 /* UIView+Helper.swift */; };
+		9929635904BE193DFAE29195 /* Pods_SequencingAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAD909B62DDC3F5B553A7B8 /* Pods_SequencingAnimations.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E423744204888E20081DE8C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2E423746204888EF0081DE8C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		2E423748204888FC0081DE8C /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		2E42374A2048A04B0081DE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ED1A4C62047320800D643B6 /* SequencingAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequencingAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED1A4C92047320800D643B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2ED1A4CB2047320800D643B6 /* SequenceAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimationsViewController.swift; sourceTree = "<group>"; };
+		2ED1A4CE2047320800D643B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ED1A4D02047320800D643B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ED1A4D32047320800D643B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ED1A4D52047320800D643B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED1A4DB204738CE00D643B6 /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		4DAD909B62DDC3F5B553A7B8 /* Pods_SequencingAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SequencingAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EABB16BFDDAC5F263155A4 /* Pods-SequencingAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequencingAnimations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SequencingAnimations/Pods-SequencingAnimations.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF41E309ABF2424D8AA62C3 /* Pods-SequencingAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequencingAnimations.release.xcconfig"; path = "Pods/Target Support Files/Pods-SequencingAnimations/Pods-SequencingAnimations.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ED1A4C32047320800D643B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9929635904BE193DFAE29195 /* Pods_SequencingAnimations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E423743204888D20081DE8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E423744204888E20081DE8C /* HeaderView.swift */,
+				2E423746204888EF0081DE8C /* DetailsView.swift */,
+				2E423748204888FC0081DE8C /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E42374C2048A0810081DE8C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2ED1A4DB204738CE00D643B6 /* UIView+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2ED1A4BD2047320800D643B6 = {
+			isa = PBXGroup;
+			children = (
+				2ED1A4C82047320800D643B6 /* SequencingAnimations */,
+				2ED1A4C72047320800D643B6 /* Products */,
+				5E2CFF4E357A5E37F0AFE9B6 /* Pods */,
+				370331930193C31B2C23F1B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2ED1A4C72047320800D643B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ED1A4C62047320800D643B6 /* SequencingAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ED1A4C82047320800D643B6 /* SequencingAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				2E42374C2048A0810081DE8C /* Extensions */,
+				2E423743204888D20081DE8C /* Views */,
+				2ED1A4C92047320800D643B6 /* AppDelegate.swift */,
+				2E42374A2048A04B0081DE8C /* ViewController.swift */,
+				2ED1A4CB2047320800D643B6 /* SequenceAnimationsViewController.swift */,
+				2ED1A4CD2047320800D643B6 /* Main.storyboard */,
+				2ED1A4D02047320800D643B6 /* Assets.xcassets */,
+				2ED1A4D22047320800D643B6 /* LaunchScreen.storyboard */,
+				2ED1A4D52047320800D643B6 /* Info.plist */,
+			);
+			path = SequencingAnimations;
+			sourceTree = "<group>";
+		};
+		370331930193C31B2C23F1B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD909B62DDC3F5B553A7B8 /* Pods_SequencingAnimations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2CFF4E357A5E37F0AFE9B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75EABB16BFDDAC5F263155A4 /* Pods-SequencingAnimations.debug.xcconfig */,
+				ABF41E309ABF2424D8AA62C3 /* Pods-SequencingAnimations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ED1A4C52047320800D643B6 /* SequencingAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED1A4D82047320800D643B6 /* Build configuration list for PBXNativeTarget "SequencingAnimations" */;
+			buildPhases = (
+				61EDAAE7C9A173A8BE95AF30 /* [CP] Check Pods Manifest.lock */,
+				2ED1A4C22047320800D643B6 /* Sources */,
+				2ED1A4C32047320800D643B6 /* Frameworks */,
+				2ED1A4C42047320800D643B6 /* Resources */,
+				76B4E0C69230AAA2D9433362 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SequencingAnimations;
+			productName = SequencingAnimations;
+			productReference = 2ED1A4C62047320800D643B6 /* SequencingAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ED1A4BE2047320800D643B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mani Ramezan";
+				TargetAttributes = {
+					2ED1A4C52047320800D643B6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2ED1A4C12047320800D643B6 /* Build configuration list for PBXProject "SequencingAnimations" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ED1A4BD2047320800D643B6;
+			productRefGroup = 2ED1A4C72047320800D643B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ED1A4C52047320800D643B6 /* SequencingAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ED1A4C42047320800D643B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED1A4D42047320800D643B6 /* LaunchScreen.storyboard in Resources */,
+				2ED1A4D12047320800D643B6 /* Assets.xcassets in Resources */,
+				2ED1A4CF2047320800D643B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61EDAAE7C9A173A8BE95AF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SequencingAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B4E0C69230AAA2D9433362 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SequencingAnimations/Pods-SequencingAnimations-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SequencingAnimations/Pods-SequencingAnimations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ED1A4C22047320800D643B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED1A4CC2047320800D643B6 /* SequenceAnimationsViewController.swift in Sources */,
+				2E423747204888EF0081DE8C /* DetailsView.swift in Sources */,
+				2ED1A4DC204738CE00D643B6 /* UIView+Helper.swift in Sources */,
+				2E423749204888FC0081DE8C /* BottomView.swift in Sources */,
+				2ED1A4CA2047320800D643B6 /* AppDelegate.swift in Sources */,
+				2E423745204888E20081DE8C /* HeaderView.swift in Sources */,
+				2E42374B2048A04B0081DE8C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ED1A4CD2047320800D643B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED1A4CE2047320800D643B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ED1A4D22047320800D643B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED1A4D32047320800D643B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ED1A4D62047320800D643B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ED1A4D72047320800D643B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ED1A4D92047320800D643B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EABB16BFDDAC5F263155A4 /* Pods-SequencingAnimations.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequencingAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zocdoc.SequencingAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ED1A4DA2047320800D643B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF41E309ABF2424D8AA62C3 /* Pods-SequencingAnimations.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequencingAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zocdoc.SequencingAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED1A4C12047320800D643B6 /* Build configuration list for PBXProject "SequencingAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED1A4D62047320800D643B6 /* Debug */,
+				2ED1A4D72047320800D643B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED1A4D82047320800D643B6 /* Build configuration list for PBXNativeTarget "SequencingAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED1A4D92047320800D643B6 /* Debug */,
+				2ED1A4DA2047320800D643B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ED1A4BE2047320800D643B6 /* Project object */;
+}
